@@ -1,0 +1,470 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		52258F10223BFBB900C28809 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52258F0F223BFBB900C28809 /* AppDelegate.swift */; };
+		52258F12223BFBB900C28809 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52258F11223BFBB900C28809 /* ViewController.swift */; };
+		52258F15223BFBB900C28809 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52258F13223BFBB900C28809 /* Main.storyboard */; };
+		52258F17223BFBBA00C28809 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52258F16223BFBBA00C28809 /* Assets.xcassets */; };
+		52258F1A223BFBBA00C28809 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52258F18223BFBBA00C28809 /* LaunchScreen.storyboard */; };
+		52258F25223BFBBA00C28809 /* ShibbolethAuthTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52258F24223BFBBA00C28809 /* ShibbolethAuthTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		52258F21223BFBBA00C28809 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 52258F04223BFBB900C28809 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52258F0B223BFBB900C28809;
+			remoteInfo = ShibbolethAuth;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		52258F0C223BFBB900C28809 /* ShibbolethAuth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShibbolethAuth.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		52258F0F223BFBB900C28809 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		52258F11223BFBB900C28809 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		52258F14223BFBB900C28809 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		52258F16223BFBBA00C28809 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		52258F19223BFBBA00C28809 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		52258F1B223BFBBA00C28809 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52258F20223BFBBA00C28809 /* ShibbolethAuthTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShibbolethAuthTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		52258F24223BFBBA00C28809 /* ShibbolethAuthTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShibbolethAuthTests.swift; sourceTree = "<group>"; };
+		52258F26223BFBBA00C28809 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		52258F09223BFBB900C28809 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52258F1D223BFBBA00C28809 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		52258F03223BFBB900C28809 = {
+			isa = PBXGroup;
+			children = (
+				52258F0E223BFBB900C28809 /* ShibbolethAuth */,
+				52258F23223BFBBA00C28809 /* ShibbolethAuthTests */,
+				52258F0D223BFBB900C28809 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		52258F0D223BFBB900C28809 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				52258F0C223BFBB900C28809 /* ShibbolethAuth.app */,
+				52258F20223BFBBA00C28809 /* ShibbolethAuthTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		52258F0E223BFBB900C28809 /* ShibbolethAuth */ = {
+			isa = PBXGroup;
+			children = (
+				52258F0F223BFBB900C28809 /* AppDelegate.swift */,
+				52258F11223BFBB900C28809 /* ViewController.swift */,
+				52258F13223BFBB900C28809 /* Main.storyboard */,
+				52258F16223BFBBA00C28809 /* Assets.xcassets */,
+				52258F18223BFBBA00C28809 /* LaunchScreen.storyboard */,
+				52258F1B223BFBBA00C28809 /* Info.plist */,
+			);
+			path = ShibbolethAuth;
+			sourceTree = "<group>";
+		};
+		52258F23223BFBBA00C28809 /* ShibbolethAuthTests */ = {
+			isa = PBXGroup;
+			children = (
+				52258F24223BFBBA00C28809 /* ShibbolethAuthTests.swift */,
+				52258F26223BFBBA00C28809 /* Info.plist */,
+			);
+			path = ShibbolethAuthTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		52258F0B223BFBB900C28809 /* ShibbolethAuth */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52258F29223BFBBA00C28809 /* Build configuration list for PBXNativeTarget "ShibbolethAuth" */;
+			buildPhases = (
+				52258F08223BFBB900C28809 /* Sources */,
+				52258F09223BFBB900C28809 /* Frameworks */,
+				52258F0A223BFBB900C28809 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ShibbolethAuth;
+			productName = ShibbolethAuth;
+			productReference = 52258F0C223BFBB900C28809 /* ShibbolethAuth.app */;
+			productType = "com.apple.product-type.application";
+		};
+		52258F1F223BFBBA00C28809 /* ShibbolethAuthTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52258F2C223BFBBA00C28809 /* Build configuration list for PBXNativeTarget "ShibbolethAuthTests" */;
+			buildPhases = (
+				52258F1C223BFBBA00C28809 /* Sources */,
+				52258F1D223BFBBA00C28809 /* Frameworks */,
+				52258F1E223BFBBA00C28809 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				52258F22223BFBBA00C28809 /* PBXTargetDependency */,
+			);
+			name = ShibbolethAuthTests;
+			productName = ShibbolethAuthTests;
+			productReference = 52258F20223BFBBA00C28809 /* ShibbolethAuthTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		52258F04223BFBB900C28809 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = Minitex;
+				TargetAttributes = {
+					52258F0B223BFBB900C28809 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					52258F1F223BFBBA00C28809 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 52258F0B223BFBB900C28809;
+					};
+				};
+			};
+			buildConfigurationList = 52258F07223BFBB900C28809 /* Build configuration list for PBXProject "ShibbolethAuth" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 52258F03223BFBB900C28809;
+			productRefGroup = 52258F0D223BFBB900C28809 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				52258F0B223BFBB900C28809 /* ShibbolethAuth */,
+				52258F1F223BFBBA00C28809 /* ShibbolethAuthTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		52258F0A223BFBB900C28809 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52258F1A223BFBBA00C28809 /* LaunchScreen.storyboard in Resources */,
+				52258F17223BFBBA00C28809 /* Assets.xcassets in Resources */,
+				52258F15223BFBB900C28809 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52258F1E223BFBBA00C28809 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		52258F08223BFBB900C28809 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52258F12223BFBB900C28809 /* ViewController.swift in Sources */,
+				52258F10223BFBB900C28809 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52258F1C223BFBBA00C28809 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52258F25223BFBBA00C28809 /* ShibbolethAuthTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		52258F22223BFBBA00C28809 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 52258F0B223BFBB900C28809 /* ShibbolethAuth */;
+			targetProxy = 52258F21223BFBBA00C28809 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		52258F13223BFBB900C28809 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52258F14223BFBB900C28809 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		52258F18223BFBBA00C28809 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52258F19223BFBBA00C28809 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		52258F27223BFBBA00C28809 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		52258F28223BFBBA00C28809 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		52258F2A223BFBBA00C28809 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K97KHP3ZWG;
+				INFOPLIST_FILE = ShibbolethAuth/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = edu.umn.minitex.ShibbolethAuth;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		52258F2B223BFBBA00C28809 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K97KHP3ZWG;
+				INFOPLIST_FILE = ShibbolethAuth/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = edu.umn.minitex.ShibbolethAuth;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		52258F2D223BFBBA00C28809 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K97KHP3ZWG;
+				INFOPLIST_FILE = ShibbolethAuthTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = edu.umn.minitex.ShibbolethAuthTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShibbolethAuth.app/ShibbolethAuth";
+			};
+			name = Debug;
+		};
+		52258F2E223BFBBA00C28809 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K97KHP3ZWG;
+				INFOPLIST_FILE = ShibbolethAuthTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = edu.umn.minitex.ShibbolethAuthTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShibbolethAuth.app/ShibbolethAuth";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		52258F07223BFBB900C28809 /* Build configuration list for PBXProject "ShibbolethAuth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52258F27223BFBBA00C28809 /* Debug */,
+				52258F28223BFBBA00C28809 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52258F29223BFBBA00C28809 /* Build configuration list for PBXNativeTarget "ShibbolethAuth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52258F2A223BFBBA00C28809 /* Debug */,
+				52258F2B223BFBBA00C28809 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52258F2C223BFBBA00C28809 /* Build configuration list for PBXNativeTarget "ShibbolethAuthTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52258F2D223BFBBA00C28809 /* Debug */,
+				52258F2E223BFBBA00C28809 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 52258F04223BFBB900C28809 /* Project object */;
+}
