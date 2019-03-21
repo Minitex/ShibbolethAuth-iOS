@@ -58,8 +58,8 @@ class MainViewController: UIViewController {
     print("opening login page!")
 
     let authURL = URL(string: "https://shib.minitex.net/secure/test.txt")
-    let callbackUrlScheme = "https://shib.minitex.net/"
-    //let callbackUrlScheme = "shibboleth-web-flow-example://auth"
+    let callbackUrlScheme = "https://shib.minitex.net/secure/test.txt"
+    //let callbackUrlScheme = "shibboleth-minitex-web-flow-example"
 
     self.webAuthSession = ASWebAuthenticationSession.init(url: authURL!, callbackURLScheme: callbackUrlScheme, completionHandler: { (callBack:URL?, error:Error?) in
 
@@ -69,22 +69,24 @@ class MainViewController: UIViewController {
      //   return
      // }
 
-      guard error == nil else {
-        print("we have an error! Error: \(String(describing: error?.localizedDescription))")
-        return
+      if let error = error {
+        print("we have an error! Error: \(String(describing: error.localizedDescription))")
+        //return
       }
 
-      guard let successURL = callBack else {
-        print("no success in successURL! callBackURL is \(String(describing: callBack))")
-        return
+      if let successURL = callBack {
+        print("successURL is \(successURL)")
+        //return
+        let oauthToken = NSURLComponents(string: (successURL.absoluteString))?.queryItems?.filter({$0.name == "code"}).first
+
+        // Do what you want now that you've got the token, or use the callBack URL
+        print(oauthToken ?? "No OAuth Token")
+      } else {
+        print("no callBack URL")
       }
 
       print("we made it this far!")
-
-      let oauthToken = NSURLComponents(string: (successURL.absoluteString))?.queryItems?.filter({$0.name == "code"}).first
-
-      // Do what you now that you've got the token, or use the callBack URL
-      print(oauthToken ?? "No OAuth Token")
+      //self.dismiss(animated: true, completion: nil)
     })
 
     // Kick it off

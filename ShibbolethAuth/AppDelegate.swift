@@ -42,5 +42,16 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
   }
 
 
+  func application(_ app: UIApplication, open url: URL, options: [UIApplication.OpenURLOptionsKey : Any] = [:]) -> Bool {
+    if url.scheme == "https://shib.minitex.net/secure/test.txt" {
+      print("we have the right url")
+      return true
+    } else {
+      print("we have the wrong url")
+      return false
+    }
+  }
+ 
+
 }
 
